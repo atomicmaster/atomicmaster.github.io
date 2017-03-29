@@ -1,1 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Noskill.Ninja
+email: ninja@noskill.ninja
+description: > # this means to ignore newlines until "baseurl:"
+        A small, tiny really, really tiny place on the internet where I will post my thoughts, ideas, musings, and what-have-you 
+        on things that may or may not interest me, catch my attention or may even have nothing to do with me. This is my own, 
+        this does not reflect the opinions, official or unofficial, of anyone I am related to, know, work for, work with, saw, 
+        exist, or even anyone I have imagined. Mr.H and Mr.D, as well as others, are real people, are not abbreviations of body 
+        parts, and are colorful characters likely to appear in my writings.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://noskill.ninja" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: AA55h
+github_username:  atomicmaster
+show_downloads: false
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-minimal
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
