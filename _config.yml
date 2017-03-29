@@ -16,11 +16,7 @@
 title: Noskill.Ninja
 email: ninja@noskill.ninja
 description: > # this means to ignore newlines until "baseurl:"
-        A small, tiny really, really tiny place on the internet where I will post my thoughts, ideas, musings, and what-have-you 
-        on things that may or may not interest me, catch my attention or may even have nothing to do with me. This is my own, 
-        this does not reflect the opinions, official or unofficial, of anyone I am related to, know, work for, work with, saw, 
-        exist, or even anyone I have imagined. Mr.H and Mr.D, as well as others, are real people, are not abbreviations of body 
-        parts, and are colorful characters likely to appear in my writings.
+        A really tiny place on the internets where I will post my thoughts, ideas, musings, and what-have-you on things that may or may not interest me. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://noskill.ninja" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AA55h

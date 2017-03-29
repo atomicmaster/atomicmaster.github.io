@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul>
+  {% for post in site.posts %}
+    <article class="post">
+      <a href="{{ post.url }}"><h4 class='post-title'>{{ post.title }}</h4></a> 
+      <div class="post-date-small">{{ post.date | date: "%b %-d, %Y" }}</div>
+      {{ post.excerpt | strip_html | truncatewords: 25 }}
+    </article>
+  {% endfor %}
+</ul>
